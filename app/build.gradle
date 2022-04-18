@@ -58,6 +58,7 @@ dependencies {
     implementation "androidx.compose.animation:animation:$compose_version"
     implementation 'androidx.lifecycle:lifecycle-viewmodel-compose:2.4.1'
     implementation "com.google.android.material:compose-theme-adapter:1.1.6"
+    implementation "androidx.constraintlayout:constraintlayout-compose:1.0.0"
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
