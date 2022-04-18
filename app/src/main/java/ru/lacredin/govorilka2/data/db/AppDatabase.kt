@@ -16,5 +16,10 @@ import ru.lacredin.govorilka2.data.db.entity.User
     ]
 )
 abstract class AppDatabase : RoomDatabase() {
+    companion object{
+        const val GOVORILKA_BD_NAME = "govorilka_bd_name"
+    }
+
+
     abstract fun userDao(): UserDao
 }

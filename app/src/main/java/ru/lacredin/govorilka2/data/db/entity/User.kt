@@ -4,12 +4,12 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity()
+@Entity
 data class User(
     @PrimaryKey
     val uid: Int,
-    @ColumnInfo()
+    @ColumnInfo
     val firstName: String?,
-    @ColumnInfo()
+    @ColumnInfo
     val lastName: String?
 )

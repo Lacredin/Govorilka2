@@ -1,4 +1,4 @@
-package ru.lacredin.govorilka2
+package ru.lacredin.govorilka2.ui.screens
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
