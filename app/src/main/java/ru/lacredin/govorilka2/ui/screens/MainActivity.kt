@@ -42,6 +42,9 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+
+        messengerViewModel.subscribe()
+        messengerViewModel.submit("Test")
     }
 
 }
